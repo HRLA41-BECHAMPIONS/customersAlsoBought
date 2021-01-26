@@ -6,6 +6,9 @@
 ```npm start``` : starts the express server and the react app
 ```npm run build``` : build the changes into the **bundle5.js** file
 
+## for the proxy: which dom-component is this attached to ?
+```CustomersAlso```
+
 ## which port for the server ?
 
 
