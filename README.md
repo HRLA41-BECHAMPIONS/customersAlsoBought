@@ -1,39 +1,11 @@
-# Project Name
-
-> Project description
-
-## Related Projects
-
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+# BeChampions' customersAlso section
 
 ## Usage
 
-> Some usage instructions
+```npm run seed``` :  seed all sample data used by the front end into the database
+```npm start``` : starts the express server and the react app
+```npm run build``` : build the changes into the **bundle5.js** file
 
-## Requirements
+## which port for the server ?
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
-
+> The server runs on port 3030.
