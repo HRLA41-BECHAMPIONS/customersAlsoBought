@@ -6,7 +6,7 @@ const { readCurrentProducts, readRelatedSuggestions } = require('../database/dbH
 
 const app = express();
 
-const port = 8000;
+const port = 3020;
 
 app.use(bodyParser.json());
 app.use(morgan('dev'));
@@ -43,5 +43,5 @@ app.get('/bechampions/suggestions', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log('express is listening on port 8000');
+  console.log(`express is listening on port ${port}`)
 });
