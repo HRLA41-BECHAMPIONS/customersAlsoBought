@@ -6,7 +6,7 @@ const { readCurrentProducts, readRelatedSuggestions } = require('../database/dbH
 
 const app = express();
 
-const port = 3030;
+const port = 3020;
 
 app.use(bodyParser.json());
 app.use(morgan('dev'));
