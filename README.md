@@ -8,4 +8,4 @@
 
 ## which port for the server ?
 
-> The server runs on port 3030.
+> The server runs on port 3020.
