@@ -9,7 +9,8 @@
   "scripts": {
     "test": "jest",
     "build": "webpack -w",
-    "start": "nodemon server/serverIndex.js"
+    "start": "nodemon server/serverIndex.js",
+    "seed": "node database/seedingScript/seedingScript.js"
   },
   "dependencies": {
     "@babel/preset-env": "^7.12.11",
