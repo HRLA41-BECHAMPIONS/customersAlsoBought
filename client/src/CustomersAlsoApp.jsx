@@ -10,7 +10,7 @@ class App extends React.Component {
 
   componentDidMount() {
     const imageArr = [];
-    return axios.get('/bechampions/suggestions')
+    return axios.get('/api/bechampions/suggestions')
       .then((response) => {
         response.data.forEach((item) => {
           imageArr.push(item[0]);
