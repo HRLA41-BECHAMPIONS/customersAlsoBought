@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "webpack -w",
-    "start": "nodemon server/serverIndex.js",
+    "build": "webpack",
+    "start": "node server/serverIndex.js",
     "seed": "node database/seedingScript/seedingScript.js"
   },
   "dependencies": {

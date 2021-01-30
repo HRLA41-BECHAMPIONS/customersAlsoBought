@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   res.render('../public/index.html');
 });
 
-app.get('/bechampions/suggestions', (req, res) => {
+app.get('/api/bechampions/suggestions', (req, res) => {
   /* theoretically, the api would be receiving a product name or id in the request
   given that this is not going to happen on this project,
   I'll just select a main product at random and display all the db items related to it
